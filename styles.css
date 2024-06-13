@@ -1,0 +1,84 @@
+body{
+    .rye-regular {
+        font-family: "Rye", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+#header{
+    text-align: center;
+    font-size: xx-large;
+    background-image: url("images/jerusalem.jpg");
+    background-size: cover;
+    height: 1000px;
+    color: goldenrod
+    
+    
+}
+
+#title{
+    text-decoration: underline;
+    padding: 200px 0 350px 0;
+}
+
+h3{
+    background-color: black;
+}
+
+#top{
+    text-align: center;
+    background: rgb(222, 192, 117);
+    margin: 0;
+    padding: 20px 0;
+}
+
+#activities{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient( rgb(222, 192, 117), #f4e3e3);
+    margin-top: 0;
+    
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+    margin:0 20px;
+
+}
+
+.activityimg{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#your-guid{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 450px;
+    border: 1px solid rgb(125, 123, 130);
+    border-radius: 10px;
+    background: #f4e3e3;
+}
+
+#dan{
+    border-radius: 10px;
+}
+
+.written{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+
+
+.guid-name{
+    background: none;
+}
+
